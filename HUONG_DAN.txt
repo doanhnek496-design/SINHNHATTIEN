@@ -1,0 +1,29 @@
+SINH NHẬT BẠN THÂN THANH TIỀN
+
+Mật khẩu: 000000 (sáu số 0).
+
+CHẠY TRÊN ANDROID / TERMUX
+1. Giải nén toàn bộ ZIP.
+2. Mở Termux và đi vào thư mục chứa index.html. Ví dụ:
+   cd "/storage/emulated/0/Toàn bộ tool/code wed snhat/code wed snhat/birthday"
+   (điều chỉnh đường dẫn theo vị trí giải nén thực tế)
+3. Chạy: python -m http.server 8000 --bind 127.0.0.1
+4. Mở Chrome: http://127.0.0.1:8000/
+5. Nhập 000000 bằng bàn phím trên trang.
+
+CÁC TRANG
+- index.html: trang mở khóa
+- sinhnhat.html: thư chúc mừng tình bạn
+- banh.html: trang tiệc sinh nhật, ảnh kỷ niệm và hiệu ứng pháo hoa
+
+Lưu ý: giữ nguyên thư mục images cạnh các file HTML/CSS/JS để ảnh hiển thị. Website không cần npm install.
+
+
+BAN CAP NHAT PASTEL: Giao dien da doi sang hong pastel/kem/hoa tu, khong dung mau LED neon. Trang banh sinh nhat co vong anh xoay cham, anh tu can bang chieu xoay de de xem, vong trang tri xoay va hoa/noi dung bay nhe.
+
+
+CAP NHAT MAT KHAU
+- Nhap bang phim tren trang hoac ban phim dien thoai/may tinh.
+- Trang tu kiem tra khi nhap du 6 chu so; khong can bam nut neu da nhap du.
+- Mat khau dung: 000000. Trang se tu mo sinhnhat.html, tai day cham vao phong thu de mo la thu.
+- Neu sai, trang bao loi va cho nhap lai. Nut XOA va nut xoa mot so van hoat dong.
